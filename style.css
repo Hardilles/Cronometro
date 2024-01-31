@@ -31,7 +31,7 @@ body{
 .container h1{
     text-align: center;
     color: white;
-
+    
 }
 
 .timer{
@@ -39,7 +39,7 @@ body{
     color:chartreuse;
 
     font-family: 'DS-DIGI', sans-serif;
-    font-size: 150px; /* Use 'px' em vez de 'PX' para consistência e padrão. */
+    font-size: 150px;
     
 }
 
@@ -84,7 +84,7 @@ body{
 }
 
 #startBtn:hover{
-    color:rgb(19, 226, 12);   
+    color:chartreuse
 } 
 #pauseBtn:hover{
     color:red;
