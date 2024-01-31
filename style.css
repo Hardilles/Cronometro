@@ -14,22 +14,89 @@ body{
 }
 
 .container{
-    background-color: rgb(26, 26, 26);
-    border-radius: 20px;
     display: flex; /*tornar os elementos flexiveis*/
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    color: white;
+    align-items: center;
+    gap: 2rem; /*afastar os elementos*/
+    padding-top: 3rem;
+    background-color: rgb(26, 26, 26);
     
-    
+    border-radius: 20px;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
 }
 
+.container h1{
+    text-align: center;
+    color: white;
 
-.time {
+}
+
+.timer{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: chartreuse;
+
     font-family: 'DS-DIGI', sans-serif;
     font-size: 100px; /* Use 'px' em vez de 'PX' para consistência e padrão. */
-    color: chartreuse;
-    text-align: center;  
+    
     
 }
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 90px;
+       
+}
+
+.separator{
+    padding: 0 10px;
+    
+}
+
+#milliseconds{
+    transform: scale(0.9);
+
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.bi{
+    padding: 10px 20px;
+    font-size: 50px;
+    color: ;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    
+}
+
+.bi:hover {
+    transform: scale(1.6);
+    
+}
+
+#startBtn:hover{
+    color:green;   
+} 
+#pauseBtn:hover{
+    color:red
+}  
+#resetBtn:hover{
+    color:blue
+}     
+
+
+
+
