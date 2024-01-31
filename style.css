@@ -22,7 +22,7 @@ body{
     background-color: rgb(26, 26, 26);
     
     border-radius: 20px;
-    height: 300px;
+    height: 400px;
     width: 800px;
     margin: auto;
     margin-top: 100px;
@@ -36,21 +36,18 @@ body{
 
 .timer{
     display: flex;
-    font-size: 55px;
-    font-weight: bold;
-    color: chartreuse;
+    color:chartreuse;
 
     font-family: 'DS-DIGI', sans-serif;
-    font-size: 100px; /* Use 'px' em vez de 'PX' para consistência e padrão. */
-    
+    font-size: 150px; /* Use 'px' em vez de 'PX' para consistência e padrão. */
     
 }
 
 .time {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-around;
-    min-width: 90px;
+    min-width: auto;
        
 }
 
@@ -73,29 +70,40 @@ body{
 .bi{
     padding: 10px 20px;
     font-size: 50px;
-    color: ;
     cursor: pointer;
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
     background-color: transparent;
     border: none;
-    color: aliceblue;
+    color: white;
     
 }
 
 .bi:hover {
-    transform: scale(1.6);
+    transform: scale(1.8);
     
 }
 
 #startBtn:hover{
-    color:green;   
+    color:rgb(19, 226, 12);   
 } 
 #pauseBtn:hover{
-    color:red
+    color:red;
+    
 }  
 #resetBtn:hover{
-    color:blue
-}     
+    color:blue;
+}    
+
+#pauseBtn{
+    display: none; /*Sumir botão de  pause no início*/
+}
+
+#resetBtn{
+    display: none; /*Sumir botão de  pause no início*/
+}
+
+
+
 
 
 
